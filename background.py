@@ -8,14 +8,15 @@ class FixedBackground:
 
     def __init__(self):
         self.image = load_image('futsal_court.png')
-        # self.cw = get_canvas_width() #화면 너비 캔버스 높이 너비 화면에그러져ㅣㄹ
-        # self.ch = get_canvas_height()
-        # self.w = self.image.w #진짜 이미지 크기
-        # self.h = self.image.h
-        self.cw = get_canvas_width()
+
+        self.cw = get_canvas_width() #화면 너비 캔버스 높이 너비 화면에그러져ㅣㄹ
         self.ch = get_canvas_height()
-        self.w = self.image.w
+        self.w = self.image.w #진짜 이미지 크기
         self.h = self.image.h
+        # self.cw = get_canvas_width()
+        # self.ch = get_canvas_height()
+        # self.w = self.image.w
+        # self.h = self.image.h
 
         pass
 
